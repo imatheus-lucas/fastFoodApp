@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add expo-font
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\app\matheus.lucas\product\12.1.0\client_5;C:\app\matheus.lucas\product\12.1.0\client_5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\app\gilberto\product\11.2.0\client_1;C:\app\gilberto\product\11.2.0\client_1\bin;C:\app\gilberto\product\12.1.0\client_4;C:\app\gilberto\product\12.1.0\client_4\bin;C:\app\gilberto\product\12.1.0\client_3;C:\app\gilberto\product\12.1.0\client_3\bin;C:\app\suporte\product\12.1.0\client_2;C:\app\suporte\product\12.1.0\client_2\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\app\Administrador\product\11.2.0\client_1;C:\app\Administrador\product\11.2.0\client_1\bin;C:\app\Administrador\product\12.1.0\client_1;C:\app\Administrador\product\12.1.0\client_1\bin;C:\app\Administrador\product\11.2.0\client_1;C:\app\Administrador\product\11.2.0\client_1\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NTP\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\erl10.3\bin;C:\Program Files (x86)\Elixir\bin;C:\WINDOWS\system32\config\systemprofile\.mix\escripts;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Users\matheus.lucas\AppData\Local\Microsoft\WindowsApps;C:\Android\sdk\emulator;C:\Android\sdk\tools;C:\Android\sdk\tools\bin;C:\Android\sdk\platform-tools;C:\Users\matheus.lucas\.dotnet\tools;C:\Users\matheus.lucas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\matheus.lucas\AppData\Local\Yarn\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\oracle\instantclient;C:\Users\matheus.lucas\AppData\Roaming\npm;C:\Users\matheus.lucas\Desktop\openssl-1.0.2j-fips-x86_64\OpenSSL\bin;C:\Users\matheus.lucas\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\matheus.lucas\Desktop\teste\my-app\node_modules\cosmiconfig\node_modules\.bin'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+      "react-native-web": "~0.13.12",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0",
+      "@types/react": "~16.9.35",
+      "@types/react-dom": "~16.9.8",
+      "@types/react-native": "~0.63.2",
+      "@types/styled-components": "^5.1.4",
+      "typescript": "~3.9.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
